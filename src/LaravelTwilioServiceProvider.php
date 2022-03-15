@@ -11,11 +11,11 @@ class LaravelTwilioServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__ . '/../config/laratwilio.php', 'laratwilio');
+        $this->mergeConfigFrom(__DIR__ . '/../config/laraveltwilio.php', 'laraveltwilio');
 
-        $this->app->bind('laratwilio', function () {
+        $this->app->bind('laraveltwilio', function () {
             $this->ensureConfigValuesAreSet();
-            $client = new Client(config('laratwilio.account_sid'), config('laratwilio.auth_token'));
+            $client = new Client(config('laraveltwilio.account_sid'), config('laraveltwilio.auth_token'));
             return new LaravelTwilio($client);
         });
     }
@@ -29,7 +29,7 @@ class LaravelTwilioServiceProvider extends ServiceProvider
 
     protected function ensureConfigValuesAreSet()
     {
-        $mandatoryAttributes = config('laratwilio');
+        $mandatoryAttributes = config('laraveltwilio');
 
         foreach ($mandatoryAttributes as $key => $value) {
             if (empty($value)) {
@@ -41,7 +41,7 @@ class LaravelTwilioServiceProvider extends ServiceProvider
     protected function publishConfig()
     {
         $this->publishes([
-            __DIR__ . '/../config/laratwilio.php' => config_path('laratwilio.php'),
-        ], 'laratwilio-config');
+            __DIR__ . '/../config/laraveltwilio.php' => config_path('laraveltwilio.php'),
+        ], 'laraveltwilio-config');
     }
 }
