@@ -2,10 +2,9 @@
 
 Laravel with Twilio Integration
 
-[![Build Status](https://img.shields.io/travis/2hmad/laravel-twilio.svg?style=flat-square)](https://travis-ci.org/2hmad/Laravel-Twilio)
-[![Total Downloads](https://img.shields.io/packagist/dt/2hmad/twilio.svg?style=flat-square)](https://packagist.org/packages/2hmad/Laravel-Twilio)
-[![Latest Stable Version](https://img.shields.io/packagist/v/2hmad/twilio.svg?style=flat-square)](https://packagist.org/packages/2hmad/Laravel-Twilio)
-[![License](https://img.shields.io/github/license/2hmad/Laravel-Twilio?style=flat-square)](#license)
+[![GitHub forks](https://img.shields.io/github/forks/2hmad/laravel-twilio)](https://github.com/2hmad/Laravel-Twilio/network)
+[![GitHub stars](https://img.shields.io/github/stars/2hmad/Laravel-Twilio)](https://github.com/2hmad/Laravel-Twilio/stargazers)
+[![GitHub license](https://img.shields.io/github/license/2hmad/Laravel-Twilio)](https://github.com/2hmad/Laravel-Twilio/blob/master/LICENSE.md)
 
 ## Installation
 
