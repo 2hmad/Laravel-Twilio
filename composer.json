@@ -1,0 +1,31 @@
+{
+  "name": "2hmad/laravel-twilio",
+  "description": "Laravel with Twilio Integration",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "2hmad\\LaravelTwilio\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Ahmed Mohamed Ibrahim",
+      "email": "ahmed_noreldin@outlook.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "twilio/sdk": "^6.35"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Dot2hmad\\LaravelTwilio\\LaravelTwilioServiceProvider"
+      ],
+      "aliases": {
+        "LaraTwilio": "Dot2hmad\\LaravelTwilio\\Facades\\LaravelTwilio"
+      }
+    }
+  }
+}
