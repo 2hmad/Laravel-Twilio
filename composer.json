@@ -24,7 +24,7 @@
         "Dot2hmad\\LaravelTwilio\\LaravelTwilioServiceProvider"
       ],
       "aliases": {
-        "LaraTwilio": "Dot2hmad\\LaravelTwilio\\Facades\\LaravelTwilio"
+        "LaravelTwilio": "Dot2hmad\\LaravelTwilio\\Facades\\LaravelTwilio"
       }
     }
   }
