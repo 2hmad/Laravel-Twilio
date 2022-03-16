@@ -32,7 +32,7 @@ TWILIO_SMS_FROM=xxxx
 
 ### Usage
 
-To send a SMS message, you can use the `notify()` method available on the `LaraTwilio` Facade
+To send a SMS message, you can use the `notify()` method available on the `LaravelTwilio` Facade
 
 ```php
 <?php
